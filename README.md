@@ -77,7 +77,7 @@ If you need more details about this analysis, please visit the PDF document avai
 
 ## Resources
 
-* [Prepossing targets](https://scikit-learn.org/stable/modules/preprocessing_targets.html#preprocessing-targets)
+* [Preprosses targets](https://scikit-learn.org/stable/modules/preprocessing_targets.html#preprocessing-targets)
 
 * [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
