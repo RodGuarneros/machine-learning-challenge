@@ -14,7 +14,7 @@ The Kepler Space Observatory is a NASA-build satellite that was launched in 2009
 
 The dataset is available at: https://www.kaggle.com/nasa/kepler-exoplanet-search-results.
 
-![exoplanets.jpg](exoplanets.jpg)
+![exoplanets.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/exoplanets.jpg)
 
 ## Main data process
 
@@ -39,11 +39,11 @@ The dataset is available at: https://www.kaggle.com/nasa/kepler-exoplanet-search
 
 Based on ten features (inputs), three labels (CONFIRMED, CANDIDATE AND FALSE POSITIVE) and also 6,991 observations, the next step was use supervise learning models so as to look for patterns based on exploratory data analysis.
 
-![presentatonGuarneros.jpg](presentationGuarneros.jpg)
+![presentatonGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/presentationGuarneros.png)
 
 The main hypothesis is based on the analysis of the available data and the relevance of transit movements for the detection of planets, so it is reasonable to consider as key inputs (for more details about the meaning of the following variables, please visit the document "Notes and details" in this repository): koi_fpflag_ss, koi_fpflag_nt, koi_fpflag_co, koi_fpflag_ec.
 
-![presentatonGuarneros.jpg](waysto.jpg)
+![presentatonGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/waystoGuarneros.jpg)
 
 All the proposed models here consider transit variables as the most relevant, even above radial velocity (rad, in the database).
 
@@ -51,19 +51,19 @@ The main approach is incremental, I mean from the simplest to the most elaborate
 
 - Logistic Regression Model presents an accuracy of .72 and a hyperparameter tunning of 0.79. The confusion matrix looks like this:
 
-![LogisticGuarneros.jpg](LogisticGuarneros.png)
+![LogisticGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/LogisticGuarneros.png)
 
 - Support Vector Model presents an accuracy of .79 and a hyperparameter tunning of 0.78. The confusion matrix looks like this:
 
-![SVM.jpg](SVM.png)
+![SVM.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/SVM.png)
 
 - K Nearest Neighbor Model presents an accuracy of .82. The confusion matrix looks like this:
 
-![KNNGuarneros.jpg](KNNGuarneros.png)
+![KNNGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/KNNGuarneros.png)
 
 - Random Forest Model presents an accuracy of .82 and a hyperparameter tunning of 0.8159 Their confusion matrix looks like this:
 
-![RFGuarneros.jpg](RFGuarneros.png)
+![RFGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/RFGuarneros.png)
 
 - Deep Learning Neural Network Model presents an accuracy of .827 and a hyperparameter tunning of 0.78 with 10,000 epochs. 
 
