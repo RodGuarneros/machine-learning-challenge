@@ -6,7 +6,7 @@
 
 This project aims to create machine learning models capable of classifying candidate exoplanets from the raw dataset built based on the NASA Kepler space telescope observations.
 
-The machine learning model is looking to classify candidates exoplanets from the raw dataset. In other words, it aims to predict a category based on the following labels or strings: Confirm, false positive or candidate.
+The machine learning model is looking for classifying candidates exoplanets from the raw dataset. In other words, it aims to predict a category based on the following labels or strings: Confirm, false positive or candidate.
 
 ## Dataset
 
@@ -72,7 +72,7 @@ The main approach is incremental, I mean from the simplest to the most elaborate
 
 The best model to predict the class of the Kepler Object of Interest regarding new observations is the Neural Network Model following really near for Random Forest Model. 
 
-If you need more details about this analysis, please visit the PDF document in this repository.
+If you need more details about this analysis, please visit the PDF document available at the source folder in this repository.
 
 
 ## Resources
