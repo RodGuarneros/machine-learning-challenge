@@ -47,7 +47,7 @@ The main hypothesis is based on the analysis of the available data and the relev
 
 All the proposed models here consider transit variables as the most relevant, even above radial velocity (rad, in the database).
 
-The main approach is incremental, I mean from the simplest to the most elaborate and complex model, with the following performance metrics, such as "Accuracy" defined as TP+TN/Total observations: 
+The main approach is incremental, I mean, the identification model process began from the simplest to the most elaborate and complex model, with the following performance metrics, such as "Accuracy" defined as TP+TN/Total observations: 
 
 - Logistic Regression Model presents an accuracy of .72 and a hyperparameter tunning of 0.79. The confusion matrix looks like this:
 
