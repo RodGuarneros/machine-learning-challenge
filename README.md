@@ -61,7 +61,7 @@ The main approach is incremental, I mean, the identification model process began
 
 ![KNNGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/KNNGuarneros.png)
 
-- Random Forest Model presents an accuracy of .82 and a hyperparameter tunning of 0.8159 Their confusion matrix looks like this:
+- Random Forest Model presents an accuracy of .82 and a hyperparameter tunning of 0.8159. The confusion matrix looks like this:
 
 ![RFGuarneros.jpg](https://github.com/RodGuarneros/machine-learning-challenge/blob/main/Images/RFGuarneros.png)
 
